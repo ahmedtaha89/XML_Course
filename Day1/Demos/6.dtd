@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT mother (name,age)>
+<!ELEMENT age (#PCDATA)>
+
+
+<!ELEMENT family (father,mother)>
+<!ELEMENT father (name,age)>
+
+
+

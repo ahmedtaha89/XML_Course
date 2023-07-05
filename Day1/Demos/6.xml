@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family>
+	<father>
+		<name>Ahmed</name>
+		<age>22</age>
+	</father>
+	<mother>
+		<name>Sara</name>
+		<age>18</age>
+	</mother>
+</family>

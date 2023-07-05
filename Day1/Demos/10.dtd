@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT family (#PCDATA|father|mother)*>
+<!ELEMENT father (#PCDATA)>
+<!ELEMENT mother (#PCDATA)>

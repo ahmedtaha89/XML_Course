@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family loc="cairo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Doaa/Desktop/XMLDay2/7.xsd">
+	<father age="45" name="ahmed">
+		<son ssn="123">
+			<name>Hmada</name>
+		</son>
+	</father>
+</family>

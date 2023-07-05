@@ -1,0 +1,85 @@
+-DTD 
+1-limitation of data types PCDATA ,>> ATT CDATA , 
+2-MIXED CONTENT ELEMENT 
+3-NUM OF OCCURANCE + , * , ?
+4-DTD NOT W3C STANDERED 
+
+- VALIDATION STANDERED 
+-XML schema 
+- STANDERED
+-follow xml rules 
+-data types int , float , bool , string ,datatime , date ,time ,,
+-solve mixed content issue
+-spicfy num of occurance 
+
+
+
+
+//////////////////////////Namespace
+<?xml version="1.0">
+<Books>
+    <book>
+        <isbn>123</isbn>
+        <anuther>Ali</anuther>
+        <name>Test</name>
+        <year>2020</year>
+    </book>
+    <book>
+        <form>Cairo</form>
+        <to>Canada</to>
+        <ticketNo>12345</ticketNo>
+    </book>
+</Books>
+-DTD
+<!ELEMENT Books (book)*>
+<!ELEMENT book (isbn |auther | name | year | from|to |ticketNo)
+
+//Namespace :logical grouping elements and attributes
+
+book read =>www.bookread.com 
+book ticket=> www.bookticket.com 
+<?xml version="1.0">
+<Books>
+    <book xmlns="www.bookread.com">
+        <isbn>123</isbn>
+        <anuther>Ali</anuther>
+        <name>Test</name>
+        <year>2020</year>
+    </book>
+    
+    <book xmlns="www.bookticket.com">
+        <form>Cairo</form>
+        <to>Canada</to>
+        <ticketNo>12345</ticketNo>
+    </book>
+</Books>
+
+///Prefix [var]
+
+<?xml version="1.0">
+<Books xmlns:br="www.bookread.com"  xmlns:bt="www.bookticket.com" >
+    <br:book>
+        <br:isbn>123</br:isbn>
+        <br:anuther>Ali</br:anuther>
+        <br:name>Test</br:name>
+        <br:year>2020</br:year>
+    </br:book>
+    
+    <bt:book>
+        <bt:form>Cairo</bt:form>
+        <bt:to>Canada</bt:to>
+        <bt:ticketNo>12345</bt:ticketNo>
+    </bt:book>
+</Books>
+
+//////////////////XML schema
+
+
+-1-Simple type 
+<family>Ali</family>
+-2-Complex types 
+<family/>
+<family name="ddddd"/>
+<family age="123">
+    <name></name>
+</family>

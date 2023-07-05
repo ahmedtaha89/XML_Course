@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT family (#PCDATA|father)*>
+<!ELEMENT father (#PCDATA|name)*>
+<!ELEMENT name (#PCDATA)>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family SYSTEM "11.dtd">
+<family>Ahmed
+	<father>22
+		<name>Ahmed</name>
+	</father>
+</family>

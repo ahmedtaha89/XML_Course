@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:simpleType name="JobOptions" >
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="teacher"></xs:enumeration>
+		<xs:enumeration value="Doctor"></xs:enumeration>
+		<xs:enumeration value="Engineer"></xs:enumeration>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="ageRange">
+	<xs:restriction base="xs:integer">
+		<xs:minInclusive value="25"></xs:minInclusive>
+		<xs:maxInclusive value="40"></xs:maxInclusive>
+	</xs:restriction>
+</xs:simpleType>
+	
+	
+	
+	
+	
+	
+	<xs:element name="family">
+		<xs:complexType>
+			<xs:attribute name="loc" type="xs:string"></xs:attribute>
+			<xs:attribute name="job" type="JobOptions"></xs:attribute>
+			<xs:attribute name="age" type="ageRange"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family loc="cairo">
+	<father ssn="123">
+		<mother sport="volleyball" job="Dev">Sara</mother>
+		<daughter sport="tennis" age="22 years old">Alyaa</daughter>
+		<son sport="football">Ali</son>
+	</father>
+</family>

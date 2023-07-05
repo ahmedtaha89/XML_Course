@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family>
+	<father>
+		<son>Ahmed</son>
+		<son>Ali</son>
+		<daughter>sara</daughter>
+	</father>
+	<father>
+		<son>omar</son>
+		<daughter>alyaa</daughter>
+		<daughter>rahma</daughter>
+	</father>
+</family>

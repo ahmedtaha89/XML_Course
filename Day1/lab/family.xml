@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family SYSTEM "D:\Courses\XML\XML Assignments\Day1\lab\Untitled5.dtd">
+<family>
+	<grandfather>ahmed
+<father job="Engineer"> taha
+<mother>mai</mother>
+			<son age="11" sport="football"/>
+			<daughter age="22" job="Doctor">nada</daughter>
+		</father>
+		<uncle>ali</uncle>
+		<uncle>amr</uncle>
+		<aunt sons="s1">asmmaa</aunt>
+	</grandfather>
+</family>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT family (father+)>
+<!ELEMENT father (mother,daughter,son)>
+<!ELEMENT mother (#PCDATA)>
+<!ELEMENT daughter (#PCDATA)>
+<!ELEMENT son (#PCDATA)>
+
+<!ATTLIST family loc CDATA #FIXED "cairo">
+
+<!ATTLIST father ssn NMTOKEN #REQUIRED>
+
+<!ATTLIST mother sport (football|tennis|volleyball) "football">
+<!ATTLIST mother job (eng|doc|Dev) #REQUIRED>
+
+<!ATTLIST daughter sport (football|tennis|volleyball) "football">
+<!ATTLIST daughter age NMTOKENS #REQUIRED>
+
+<!ATTLIST son sport (football|tennis|volleyball) #REQUIRED>

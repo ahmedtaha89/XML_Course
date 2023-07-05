@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Doaa/Desktop/XMLDay2/6.xsd">
+	<father>Ahmed
+	  <ssn>123</ssn>
+	</father>
+</family>

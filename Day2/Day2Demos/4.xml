@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Courses/XML/XML%20Assignments/Day1/Demos2/test_schema.xsd">
+	<father>
+		<name>Mohamed</name>
+		<age>23</age>
+		<salary>2000</salary>
+	</father>
+</family>
